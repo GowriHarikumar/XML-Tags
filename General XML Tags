@@ -1,10 +1,2 @@
 Excel Sheet  Dynamic Name:
 <?spreadsheet-sheet-name: {.//COLUMN_NAME}?> 
-
-
-Amount In Words:
-<?xdoxslt:toWordsAmt(COLUMN_NAME)?>
-
-
-Amount In Words Upper Case:
-<?xdofx:to_check_number(abs(INV_TOTAL),'AED', ‘CASE_UPPER’, ‘DECIMAL_STYLE_WORDS’)?>
